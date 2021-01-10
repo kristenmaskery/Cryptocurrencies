@@ -1,1 +1,5 @@
 # Cryptocurrencies
+
+## Project Overview
+
+This project employs unsupervised machine learning to identify the current cryptocurrencies on the market. I began by using Python to preprocess the data, which involved removing all null values as well as cryptocurrencies without coins mined. Additionally, I used “get_dummies ()” as the encoding method for text features as well as standardized and scaled the data using “StandardScaler()”. Following the preprocessing, I reduced the initial dataframe’s dimensions to three key principal components and created a new dataframe. Next, I created an elbow curve to find the best number of clustering groups and a K-Means algorithm was then implemented to predict the k-clusters for the data. Lastly, I created three different types of figures. Firstly, I generated a 3D Scatter Plot to visualize the three principal components; secondly, an hv plot table was created to observe the tradable cryptocurrencies; and a 2D scatter plot to show “Total Coins Mined” versus “Total Coin Supply” by their coin name and clusters
